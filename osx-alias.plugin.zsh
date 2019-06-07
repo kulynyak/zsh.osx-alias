@@ -4,7 +4,8 @@ if [[ "$OSTYPE" == darwin* ]]; then
   PREVIEW="Preview"
   # Desktop Programs
   alias chrome="open -a google\ chrome"
-  alias firefox="open -a firefox"
+  # alias firefox="open -a firefox"
+  alias firefox='open -a "firefox developer edition"'
   alias opera="open -a opera"
   alias safari="open -a safari"
   alias f='open -a Finder '
